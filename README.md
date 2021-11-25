@@ -29,5 +29,5 @@ jobs:
       - name: Create Comment
         if: |
           steps.is_organization_member.outputs.result == false
-        run: echo User Does Not Belong to testorg
+        run: echo "User Does Not Belong to testorg"
 ```
